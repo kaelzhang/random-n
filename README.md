@@ -15,7 +15,7 @@
 
 # random-n
 
-Get a random collection of n different items from an array.
+🚀 The blazing fast module to get a random collection of n different items from an array.
 
 ## Install
 

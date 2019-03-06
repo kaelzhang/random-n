@@ -1,7 +1,7 @@
 {
   "name": "random-n",
-  "version": "1.0.0",
-  "description": "Get a random collection of n different items from an array",
+  "version": "1.0.1",
+  "description": "🚀 The blazing fast module to get a random collection of n different items from an array",
   "main": "index.js",
   "scripts": {
     "test": "NODE_DEBUG=random-n nyc ava --timeout=10s test.js",
@@ -17,7 +17,11 @@
     "url": "git://github.com/kaelzhang/random-n.git"
   },
   "keywords": [
-    "random-n"
+    "random-n",
+    "array-random",
+    "array-shuffle",
+    "array",
+    "unique"
   ],
   "engines": {
     "node": ">= 6"
