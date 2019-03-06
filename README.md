@@ -15,7 +15,7 @@
 
 # random-n
 
-<!-- description -->
+Get a random collection of n different items from an array.
 
 ## Install
 
@@ -26,8 +26,19 @@ $ npm i random-n
 ## Usage
 
 ```js
-import random_n from 'random-n'
+import random from 'random-n'
+
+random([1, 2, 3, 4, 5], 3)
+
+// [3, 2, 5]
 ```
+
+## random(array, size?)
+
+- **array** `Array`
+- **size** `?int=array.length` The n-size of the collection. If not specified, the length of the `array` will be used.
+
+Returns `Array`
 
 ## License
 

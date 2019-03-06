@@ -1,16 +1,16 @@
 {
   "name": "random-n",
   "version": "1.0.0",
-  "description": "random-n",
-  "main": "src/index.js",
+  "description": "Get a random collection of n different items from an array",
+  "main": "index.js",
   "scripts": {
-    "test": "nyc ava --timeout=10s",
-    "test-no-report": "NODE_DEBUG=random-n nyc ava --timeout=10s --verbose",
+    "test": "NODE_DEBUG=random-n nyc ava --timeout=10s test.js",
+    "test-no-report": "NODE_DEBUG=random-n nyc ava --timeout=10s --verbose test.js",
     "lint": "eslint .",
     "posttest": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "files": [
-    "src/"
+    "index.js"
   ],
   "repository": {
     "type": "git",
@@ -33,9 +33,9 @@
   "devDependencies": {
     "ava": "^1.2.1",
     "codecov": "^3.2.0",
-    "nyc": "^13.3.0",
+    "eslint": "^5.14.0",
     "eslint-config-ostai": "^1.1.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint": "^5.14.0"
+    "eslint-plugin-import": "^2.16.0",
+    "nyc": "^13.3.0"
   }
 }
